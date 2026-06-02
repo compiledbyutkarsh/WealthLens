@@ -1,16 +1,40 @@
-# React + Vite
+# 💹 WealthLens — Finance Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A professional finance dashboard built with React and D3.js featuring live animated stock charts, portfolio tracker, watchlist, price alerts and market news.
 
-Currently, two official plugins are available:
+## ✨ Features
+- 📈 Animated stock charts with D3.js (line chart + area fill)
+- 🎯 Interactive tooltip on hover
+- 💼 Portfolio tracker with P&L, allocation pie chart
+- 📊 Markets page with full stock list and OHLCV data
+- ⭐ Watchlist with add/remove stocks
+- 🔔 Price alerts (above/below with on/off toggle)
+- ⚙️ Settings modal (profile, notifications, display, security)
+- 📰 Market news feed
+- 🎫 Live ticker bar with all stocks
+- 🌙 Premium dark glassmorphism UI
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🛠️ Tech Stack
+| Layer | Technology |
+|---|---|
+| Framework | React.js + Vite |
+| Charts | D3.js |
+| UI Components | Recharts |
+| Styling | Tailwind CSS |
+| Icons | Lucide React |
+| Routing | React Router DOM |
 
-## React Compiler
+## 🚀 Run Locally
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+```bash
+git clone https://github.com/compiledbyutkarsh/WealthLens.git
+cd WealthLens
+npm install
+npm run dev
+```
 
-## Expanding the ESLint configuration
+## 🌐 Live Demo
+[compiledbyutkarsh.github.io/WealthLens](https://compiledbyutkarsh.github.io/WealthLens)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+Built by [compiledbyutkarsh](https://github.com/compiledbyutkarsh)
